@@ -6,20 +6,97 @@
 }
 
 #barnav {
-	margin-right: 120px;
+	margin-right: 75px;
 }
 
 #crumbbread {
-	background-color: white;
+	background-color: none;
 }
 
 #sample-img {
 	height: 50vh;
-	width: 20vw;
+	width: 25vw;
 }
 
 .footer {
 	width: 100%;
 	position: absolute;
 	padding: 2px;
+}
+
+#navhome, #navsupport, #navpricing, #navabout, #navcontact, #navlogin {
+	color: orange;
+	font-weight: bold;
+}
+
+/*extra breadcrumb*/
+.btn-primary {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open>.dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74
+}
+.btn-breadcrumb .btn:not(:last-child):after {
+  content: " ";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 17px solid transparent;
+  border-bottom: 17px solid transparent;
+  border-left: 10px solid white;
+  position: absolute;
+  top: 50%;
+  margin-top: -17px;
+  left: 100%;
+  z-index: 3;
+}
+.btn-breadcrumb .btn:not(:last-child):before {
+  content: " ";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 17px solid transparent;
+  border-bottom: 17px solid transparent;
+  border-left: 10px solid rgb(173, 173, 173);
+  position: absolute;
+  top: 50%;
+  margin-top: -17px;
+  margin-left: 1px;
+  left: 100%;
+  z-index: 3;
+}
+/** The Spacing **/
+
+.btn-breadcrumb .btn {
+  padding: 6px 12px 6px 24px;
+  color: #fff;
+}
+.btn-breadcrumb .btn:first-child {
+  padding: 6px 6px 6px 10px;
+}
+.btn-breadcrumb .btn:last-child {
+  padding: 6px 18px 6px 24px;
+}
+/** Primary button **/
+
+.btn-breadcrumb .btn.btn-primary:not(:last-child):after {
+  border-left: 10px solid #428bca;
+}
+.btn-breadcrumb .btn.btn-primary:not(:last-child):before {
+  border-left: 10px solid #357ebd;
+}
+.btn-breadcrumb .btn.btn-primary:hover:not(:last-child):after {
+  border-left: 10px solid #3276b1;
+}
+.btn-breadcrumb .btn.btn-primary:hover:not(:last-child):before {
+  border-left: 10px solid #285e8e;
 }
