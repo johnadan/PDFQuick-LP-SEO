@@ -14,8 +14,8 @@
 }
 
 #sample-img {
-	height: 50vh;
-	width: 25vw;
+	height: 35vh;
+	width: 15vw;
 }
 
 .footer {
@@ -38,9 +38,9 @@
 }*/
 
 /*extra breadcrumb*/
-.btn-primary {
+/*.btn-primary {
   color: #fff;
-  background-color: #337ab7;
+  background-color: #ee8809;
   border-color: #2e6da4
 }
 .btn-primary:hover,
@@ -51,7 +51,7 @@
 .open>.dropdown-toggle.btn-primary {
   color: #fff;
   background-color: #286090;
-  border-color: #204d74
+  border-color: #204d74;
 }
 .btn-breadcrumb .btn:not(:last-child):after {
   content: " ";
@@ -81,10 +81,10 @@
   margin-left: 1px;
   left: 100%;
   z-index: 3;
-}
+}*/
 /** The Spacing **/
 
-.btn-breadcrumb .btn {
+/*.btn-breadcrumb .btn {
   padding: 6px 12px 6px 24px;
   color: #fff;
 }
@@ -93,11 +93,11 @@
 }
 .btn-breadcrumb .btn:last-child {
   padding: 6px 18px 6px 24px;
-}
+}*/
 /** Primary button **/
 
-.btn-breadcrumb .btn.btn-primary:not(:last-child):after {
-  border-left: 10px solid #428bca;
+/*.btn-breadcrumb .btn.btn-primary:not(:last-child):after {
+  border-left: 10px solid #fafafa;
 }
 .btn-breadcrumb .btn.btn-primary:not(:last-child):before {
   border-left: 10px solid #357ebd;
@@ -107,103 +107,15 @@
 }
 .btn-breadcrumb .btn.btn-primary:hover:not(:last-child):before {
   border-left: 10px solid #285e8e;
-}
-
-/*treeview list group*/
-/*.list-group-item {
-    position: relative;
-    display: block;
-    padding: 10px 15px;
-    margin-bottom: -1px;
-    background-color: #fff;
-    border: 1px solid #ddd;
 }*/
 
-/*new treeview*/
-/*div.panel:first-child {
-    margin-top:20px;
+/*suggested forms card*/
+#formsuggestions {
+  width: 20rem;
+  height: 30vh;
 }
- 
-div.treeview {
-    min-width: 100px;
-    min-height: 100px;
-    
-    max-height: 256px;
-    overflow:auto;
- 
- padding: 4px;
- 
- margin-bottom: 20px;
- 
- color: #369;
- 
- border: solid 1px;
- border-radius: 4px;
+
+/*treeview holder*/
+#treeview {
+  height: 75vh;
 }
-div.treeview ul:first-child:before {
-    display: none;
-}
-.treeview, .treeview ul {
-    margin:0;
-    padding:0;
-    list-style:none;
-    
- color: #369;
-}
-.treeview ul {
-    margin-left:1em;
-    position:relative
-}
-.treeview ul ul {
-    margin-left:.5em
-}
-.treeview ul:before {
-    content:"";
-    display:block;
-    width:0;
-    position:absolute;
-    top:0;
-    left:0;
-    border-left:1px solid;*/
-    
-    /* creates a more theme-ready standard for the bootstrap themes */
-    /*bottom:15px;
-}
-.treeview li {
-    margin:0;
-    padding:0 1em;
-    line-height:2em;
-    font-weight:700;
-    position:relative
-}
-.treeview ul li:before {
-    content:"";
-    display:block;
-    width:10px;
-    height:0;
-    border-top:1px solid;
-    margin-top:-1px;
-    position:absolute;
-    top:1em;
-    left:0
-}
-.tree-indicator {
-    margin-right:5px;
-    
-    cursor:pointer;
-}
-.treeview li a {
-    text-decoration: none;
-    color:inherit;
-    
-    cursor:pointer;
-}
-.treeview li button, .treeview li button:active, .treeview li button:focus {
-    text-decoration: none;
-    color:inherit;
-    border:none;
-    background:transparent;
-    margin:0px 0px 0px 0px;
-    padding:0px 0px 0px 0px;
-    outline: 0;
-}*/

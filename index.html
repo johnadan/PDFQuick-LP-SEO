@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, shrink-to-fit=no">
     <!-- favicon -->
-
+    <!-- <link rel="shortcut icon" type="image/png" href="assets/images/pdfquick-logo-active.png"> -->
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- Required Stylesheets -->
@@ -34,7 +34,9 @@
 <body>
   <!-- navbar -->
 	<nav class="navbar navbar-expand-lg navbar-light bg-white text-white mb-2 mt-2" id="barnav">
-  		<a class="navbar-brand ml-5" href="#">Logo</a>
+  		<a class="navbar-brand ml-5" href="index.php">
+        <img src="assets/images/pdfquick-logo-active.png" width="175" height="40" alt="pdfquick logo">  
+      </a>
   		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     		<span class="navbar-toggler-icon"></span>
   		</button>
@@ -65,639 +67,169 @@
 
   <div class="container-fluid bg-light">
     <!-- breadcrumb -->
-  	<nav aria-label="breadcrumb bg-white mt-2 mb-2" id="crumbbread">
+  	<!-- <nav aria-label="breadcrumb mt-2 mb-2" id="crumbbread">
     		<ol class="breadcrumb">
       		<li class="breadcrumb-item"><a href="#">Breadcrumb1</a></li>
       		<li class="breadcrumb-item"><a href="#">Breadcrumb2</a></li>
-      		<li class="breadcrumb-item"><a href="#">Breadcrumb3</a></li>
+      		<li class="breadcrumb-item"><a href="#">Breadcrumb3</a></li> -->
           <!-- <li class="breadcrumb-item" aria-current="page">Data</li> -->
-    		</ol>
-  	</nav>
+    		<!-- </ol>
+  	</nav> -->
 
-    <div class="btn-group btn-breadcrumb">
-      <a href="#" class="btn btn-primary">Breadcrumb1</a>
+    <!-- <div class="btn-group btn-breadcrumb mb-3">
+      <a href="#" class="btn btn-primary">Breadcrumb1</a> -->
       <!-- <a href="#" class="btn btn-primary"><i class="glyphicon glyphicon-home">Breadcrumb</i></a> -->
-      <a href="#" class="btn btn-primary">Breadcrumb2</a>
+     <!--  <a href="#" class="btn btn-primary">Breadcrumb2</a>
       <a href="#" class="btn btn-primary">Breadcrumb3</a>
       <a href="#" class="btn btn-primary">Breadcrumb4</a>
-    </div>
+    </div> -->
 
 		<div class="row">
-			<div class="col-lg-2"></div>
-      <div class="col-lg-4">
-        <!-- <div id="myTree" class="mt-3"></div> -->
-        <!-- <div class="panel panel-default">
-            <h2 class="panel-heading text-black">TreeView Using Bootstrap</h2>
-            <div class="panel-body text-black">
-                <ul class="treeview">
-                    <li><a href="#">Tree</a>
-                     <ul>
-                 <li><a href="#">Branch</a></li>
-                 <li><a href="#">Branch</a>
-                 <ul>
-                 <li><a href="#">Stick</a></li>
-                 <li><a href="#">Stick</a></li>
-                 <li><a href="#">Stick</a>
-                 <ul>
-                 <li><a href="#">Twig</a></li>
-                 <li><a href="#">Twig</a></li>
-                 <li><a href="#">Twig</a></li>
-                 <li><a href="#">Twig</a>
-                 <ul>
-                 <li><a href="#">Leaf</a></li>
-                 <li><a href="#">Leaf</a></li>
-                 <li><a href="#">Leaf</a></li>
-                 <li><a href="#">Leaf</a></li>
-                 <li><a href="#">Leaf</a></li>
-                 <li><a href="#">Leaf</a></li>
-                 <li><a href="#">Leaf</a></li>
-                 <li><a href="#">Leaf</a></li>
-                 <li><a href="#">Leaf</a></li>
-                 </ul>
-                 </li>
-                 <li><a href="#">Twig</a></li>
-                 <li><a href="#">Twig</a></li>
-                 </ul>
-                 </li>
-                 <li><a href="#">Stick</a></li>
-                 </ul>
-                 </li>
-                 <li><a href="#">Branch</a></li>
-                 <li><a href="#">Branch</a></li>
-                 </ul>
-                 </li>
-                </ul>
-            </div>
-        </div> -->
+			<div class="col-lg-1"></div>
+      <div class="col-lg-2">
+        <div class="card mt-3" id="treeview">
+          <div class="card-body text-dark">
+            <h5 class="card-title text-center">Tree Navigation Here</h5>
+            <!-- <h6 class="card-subtitle mb-2"><a href="">W9 (2018)</h6></a>
+            <h6 class="card-subtitle mb-2"><a href="">W9 (2017)</h6></a>
+            <h6 class="card-subtitle mb-2"><a href="">W9 (Rev. 2017)</h6></a>
+            <h6 class="card-subtitle mb-2"><a href="">W9 (2014-2017)</h6></a>
+            <h6 class="card-subtitle mb-2"><a href="">W9 (2014-2016)</h6></a>
+            <h6 class="card-subtitle mb-2"><a href="">W9 (2013)</h6></a>
+            <h6 class="card-subtitle mb-2"><a href="">W9 (2011)</h6></a>
+            <h6 class="card-subtitle mb-2"><a href="">W9 (2007)</h6></a> -->
+            <!-- <p class="card-text text-dark">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a> -->
+          </div>
+        </div>
       </div>
-			<div class="col-lg-4">
-        <img src="assets/images/form-thumbnail-w9-2018.png" class="mt-3 mb-3" id="sample-img">
+      <div class="col-lg-3 mt-3 mb-5">
+        <!-- breadcrumb -->
+        <nav aria-label="breadcrumb" id="crumbbread">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Breadcrumb1</a></li>
+              <li class="breadcrumb-item"><a href="#">Breadcrumb2</a></li>
+              <li class="breadcrumb-item"><a href="#">Breadcrumb3</a></li>
+              <!-- <li class="breadcrumb-item" aria-current="page">Data</li> -->
+            </ol>
+        </nav>
+
+        <div class="card mt-3 mb-3">
+          <div class="card-body text-dark">
+            <h6>Fillable Form W9 (2017)</h6>
+            <p class="text-dark">Request for Taxpayer Identification Number and Certification's one of the most commonly used IRS forms. If you've ever been an employee of a company, you've probably completed a Form W-9.</p>
+          </div>
+        </div>
+
+        <div class="card mt-3">
+          <div class="card-body text-dark">
+            <h6>Other versions:</h6>
+            <h6>W9 (2018)</h6>
+            <h6>W9 (2017)</h6>
+            <h6>W9 (Rev. 2017)</h6>
+            <h6>W9 (2014-2017)</h6>
+            <h6>W9 (2014-2016)</h6>
+            <h6>W9 (2013)</h6>
+            <h6>W9 (2011)</h6>
+            <h6>W9 (2007)</h6>
+          </div>
+        </div>
+      </div>
+			<div class="col-lg-3 mt-3 mb-5">
+        <img src="assets/images/form-thumbnail-w9-2018.png" id="sample-img">
 			</div>
+      <div class="col-lg-2">
+        <div class="card mt-3 mb-5" id="formsuggestions">
+          <div class="card-body text-dark">
+            <h5 class="card-title">Suggested Forms</h5>
+            <h6 class="card-subtitle mb-2"><a href="">990-EZ (2017)</h6></a>
+            <h6 class="card-subtitle mb-2"><a href="">941 (2016)</h6></a>
+            <h6 class="card-subtitle mb-2"><a href="">1040X (2016)</h6></a>
+            <h6 class="card-subtitle mb-2"><a href="">W-1 (2016)</h6></a>
+            <h6 class="card-subtitle mb-2"><a href="">4506-T (2017-2018)</h6></a>
+            <h6 class="card-subtitle mb-2"><a href="">W-2C (2014-2017)</h6></a>
+            <h6 class="card-subtitle mb-2"><a href="">1098 (2016)</h6></a>
+            <h6 class="card-subtitle mb-2"><a href="">1065 (2015)</h6></a>
+            <h6 class="card-subtitle mb-2"><a href="">Passport Renewal DS-82 (2013-2016)</h6></a>
+            <h6 class="card-subtitle mb-2"><a href="">VA FORM 21-4138 (2011-2015)</h6></a>
+            <!-- <h6 class="card-subtitle mb-2"><a href="">W9 (2018)</h6></a>
+            <h6 class="card-subtitle mb-2"><a href="">W9 (2017)</h6></a>
+            <h6 class="card-subtitle mb-2"><a href="">W9 (Rev. 2017)</h6></a>
+            <h6 class="card-subtitle mb-2"><a href="">W9 (2014-2017)</h6></a>
+            <h6 class="card-subtitle mb-2"><a href="">W9 (2014-2016)</h6></a>
+            <h6 class="card-subtitle mb-2"><a href="">W9 (2013)</h6></a>
+            <h6 class="card-subtitle mb-2"><a href="">W9 (2011)</h6></a>
+            <h6 class="card-subtitle mb-2"><a href="">W9 (2007)</h6></a> -->
+            <!-- <p class="card-text text-dark">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a> -->
+          </div>
+        </div>
+      </div>
 		</div>
-    <div class="row">
-      <div class="col-lg-2"></div>
-      <div class="col-lg-4"></div>
-      <div class="col-lg-4">
-          <button type="button" class="btn btn-primary ml-5 py-3 px-5">FILL ONLINE</button> 
+
+    <!-- <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-2"> -->
+        <!-- <div class="card">
+          <div class="card-body text-dark">
+          </div>
+        </div> -->
+      <!-- </div>
+      <div class="col-lg-3">
+        <div class="card">
+          <div class="card-body text-dark">
+            <h6>Other versions:</h6>
+            <h6>W9 (2018)</h6>
+            <h6>W9 (2017)</h6>
+            <h6>W9 (Rev. 2017)</h6>
+            <h6>W9 (2014-2017)</h6>
+            <h6>W9 (2014-2016)</h6>
+            <h6>W9 (2013)</h6>
+            <h6>W9 (2011)</h6>
+            <h6>W9 (2007)</h6>
+          </div>
+        </div>
       </div>
-    </div>
+      <div class="col-lg-3"> -->
+        <!-- <button type="button" class="btn btn-primary ml-5 py-3 px-5">FILL ONLINE</button> --> 
+      <!-- </div>
+      <div class="col-lg-2"></div>
+    </div> -->
+
 		<div class="row">
-			<div class="col-lg-2 col-md-1 col-sm-1"></div>
-			<div class"col-lg-8">
-				<div class="bg-light mt-3 mb-3">
-					<h5 class="text-dark mt-5 mb-4">Keywords</h5>
-					<button type="button pl-5 pr-5 pb-5 pt-5" class="btn btn-dark">w9 2018</button>
-					<button type="button pl-5 pr-5 pb-5 pt-5" class="btn btn-dark">w9 form</button>
-					<button type="button pl-5 pr-5 pb-5 pt-5" class="btn btn-dark">w9 online</button>
-					<button type="button pl-5 pr-5 pb-5 pt-5" class="btn btn-dark">blank w9</button>
-          <button type="button pl-5 pr-5 pb-5 pt-5" class="btn btn-dark">blank w9 online</button>
-					<button type="button pl-5 pr-5 pb-5 pt-5" class="btn btn-dark">blank w9 form</button>
-          <button type="button pl-5 pr-5 pb-5 pt-5" class="btn btn-dark">blank w9 form online</button>
-					<button type="button pl-5 pr-5 pb-5 pt-5" class="btn btn-dark">w9 form online</button>
-				</div>
+			<div class="col-lg-1"></div>
+			<div class="col-lg-2">
+        <!-- <div class="card mb-3">
+          <div class="card-body text-dark">
+          </div>
+        </div> -->
 			</div>
+      <div class="col-lg-6">
+        <div class="bg-light mb-3">
+          <h5 class="text-dark mb-5">Keywords</h5>
+          <button type="button" class="btn btn-gray text-dark pl-2 pr-2 pb-2 pt-2 ml-2 mr-2">w9 2018</button>
+          <button type="button" class="btn btn-gray text-dark pl-2 pr-2 pb-2 pt-2 ml-2 mr-2">w9 form</button>
+          <button type="button" class="btn btn-gray text-dark pl-2 pr-2 pb-2 pt-2 ml-2 mr-2">w9 online</button>
+          <button type="button" class="btn btn-gray text-dark pl-2 pr-2 pb-2 pt-2 ml-2 mr-2">blank w9</button>
+          <button type="button" class="btn btn-gray text-dark pl-2 pr-2 pb-2 pt-2 ml-2 mr-2">blank w9 online</button>
+          <button type="button" class="btn btn-gray text-dark pl-2 pr-2 pb-2 pt-2 ml-2 mr-2">blank w9 form</button>
+          <button type="button" class="btn btn-gray text-dark pl-2 pr-2 pb-2 pt-2 ml-2 mr-2">blank w9 form online</button>
+          <button type="button" class="btn btn-gray text-dark pl-2 pr-2 pb-2 pt-2 ml-2 mr-2 mt-3">w9 form online</button>
+        </div>
+      </div>
+      <!-- <div class="col-lg-3"></div> -->
+      <div class="col-lg-2"></div>
 		</div>
 	</div>
 
-	<footer class="footer-light bg-white text-center text-dark mt-5 mb-3">
-	Copyright &copy; PDFQuick.com 2018 
+	<footer class="footer-light bg-dark text-center text-white mt-5 pt-5 pb-5">
+	Copyright &copy; 2019 PDFQuick.com | All Rights Reserved.
 	
 	</footer>
 
-  <!-- <script type="text/javascript">
-    $(document).ready(function(){
-        var treeData = [
-            {
-                text: "Parent-Item-1",
-                nodes: [
-                    {
-                        text: "Child-Item-1",
-                        nodes: [
-                            {
-                                text: "Grandchild-Item-1"
-                            },
-                            {
-                                text: "Grandchild-Item-2"
-                            }
-                        ]
-                    },
-                    {
-                        text: "Child-Item-2"
-                    }
-                ]
-            },
-            {
-                text: "Parent-Item-2"
-            },
-            {
-                text: "Parent-Item-3"
-            },
-            {
-                text: "Parent-Item-4"
-            },
-            {
-                text: "Parent-Item-5"
-            }
-        ];
-        $('#myTree').treeview({
-            data: treeData
-        });
-    });
-    </script> -->
-
-    <!-- <script type="text/javascript">
-  $.fn.extend({
-   treeview: function() {
-   return this.each(function() {
-   // Initialize the top levels;
-   var tree = $(this); 
-   tree.addClass('treeview-tree');
-   tree.find('li').each(function() {
-   var stick = $(this);
-   });
-   tree.find('li').has("ul").each(function () {
-   var branch = $(this); //li with children ul
-   
-   branch.prepend("<i class='tree-indicator glyphicon glyphicon-chevron-right'></i>");
-   branch.addClass('tree-branch');
-   branch.on('click', function (e) {
-   if (this == e.target) {
-   var icon = $(this).children('i:first');
-   
-   icon.toggleClass("glyphicon-chevron-down glyphicon-chevron-right");
-   $(this).children().children().toggle();
-   }
-   })
-   branch.children().children().toggle();
-   
-   branch.children('.tree-indicator, button, a').click(function(e) {
-   branch.click();
-   
-   e.preventDefault();
-   });
-   });
-   });
-   }
-  });
-   
-  $(window).on('load', function () {
-   $('.treeview').each(function () {
-   var tree = $(this);
-   tree.treeview();
-   })
-  })
-  </script> -->
-
-  <!-- <script type="text/javascript">
-    $(function() {
-
-        var defaultData = [
-          {
-            text: 'Parent 1',
-            href: '#parent1',
-            tags: ['4'],
-            nodes: [
-              {
-                text: 'Child 1',
-                href: '#child1',
-                tags: ['2'],
-                nodes: [
-                  {
-                    text: 'Grandchild 1',
-                    href: '#grandchild1',
-                    tags: ['0']
-                  },
-                  {
-                    text: 'Grandchild 2',
-                    href: '#grandchild2',
-                    tags: ['0']
-                  }
-                ]
-              },
-              {
-                text: 'Child 2',
-                href: '#child2',
-                tags: ['0']
-              }
-            ]
-          },
-          {
-            text: 'Parent 2',
-            href: '#parent2',
-            tags: ['0']
-          },
-          {
-            text: 'Parent 3',
-            href: '#parent3',
-             tags: ['0']
-          },
-          {
-            text: 'Parent 4',
-            href: '#parent4',
-            tags: ['0']
-          },
-          {
-            text: 'Parent 5',
-            href: '#parent5'  ,
-            tags: ['0']
-          }
-        ];
-
-        var alternateData = [
-          {
-            text: 'Parent 1',
-            tags: ['2'],
-            nodes: [
-              {
-                text: 'Child 1',
-                tags: ['3'],
-                nodes: [
-                  {
-                    text: 'Grandchild 1',
-                    tags: ['6']
-                  },
-                  {
-                    text: 'Grandchild 2',
-                    tags: ['3']
-                  }
-                ]
-              },
-              {
-                text: 'Child 2',
-                tags: ['3']
-              }
-            ]
-          },
-          {
-            text: 'Parent 2',
-            tags: ['7']
-          },
-          {
-            text: 'Parent 3',
-            icon: 'glyphicon glyphicon-earphone',
-            href: '#demo',
-            tags: ['11']
-          },
-          {
-            text: 'Parent 4',
-            icon: 'glyphicon glyphicon-cloud-download',
-            href: '/demo.html',
-            tags: ['19'],
-            selected: true
-          },
-          {
-            text: 'Parent 5',
-            icon: 'glyphicon glyphicon-certificate',
-            color: 'pink',
-            backColor: 'red',
-            href: 'http://www.tesco.com',
-            tags: ['available','0']
-          }
-        ];
-
-        var json = '[' +
-          '{' +
-            '"text": "Parent 1",' +
-            '"nodes": [' +
-              '{' +
-                '"text": "Child 1",' +
-                '"nodes": [' +
-                  '{' +
-                    '"text": "Grandchild 1"' +
-                  '},' +
-                  '{' +
-                    '"text": "Grandchild 2"' +
-                  '}' +
-                ']' +
-              '},' +
-              '{' +
-                '"text": "Child 2"' +
-              '}' +
-            ']' +
-          '},' +
-          '{' +
-            '"text": "Parent 2"' +
-          '},' +
-          '{' +
-            '"text": "Parent 3"' +
-          '},' +
-          '{' +
-            '"text": "Parent 4"' +
-          '},' +
-          '{' +
-            '"text": "Parent 5"' +
-          '}' +
-        ']';
-
-
-        $('#treeview1').treeview({
-          data: defaultData
-        });
-
-        $('#treeview2').treeview({
-          levels: 1,
-          data: defaultData
-        });
-
-        $('#treeview3').treeview({
-          levels: 99,
-          data: defaultData
-        });
-
-        $('#treeview4').treeview({
-
-          color: "#428bca",
-          data: defaultData
-        });
-
-        $('#treeview5').treeview({
-          color: "#428bca",
-          expandIcon: 'glyphicon glyphicon-chevron-right',
-          collapseIcon: 'glyphicon glyphicon-chevron-down',
-          nodeIcon: 'glyphicon glyphicon-bookmark',
-          data: defaultData
-        });
-
-        $('#treeview6').treeview({
-          color: "#428bca",
-          expandIcon: "glyphicon glyphicon-stop",
-          collapseIcon: "glyphicon glyphicon-unchecked",
-          nodeIcon: "glyphicon glyphicon-user",
-          showTags: true,
-          data: defaultData
-        });
-
-        $('#treeview7').treeview({
-          color: "#428bca",
-          showBorder: false,
-          data: defaultData
-        });
-
-        $('#treeview8').treeview({
-          expandIcon: "glyphicon glyphicon-stop",
-          collapseIcon: "glyphicon glyphicon-unchecked",
-          nodeIcon: "glyphicon glyphicon-user",
-          color: "yellow",
-          backColor: "purple",
-          onhoverColor: "orange",
-          borderColor: "red",
-          showBorder: false,
-          showTags: true,
-          highlightSelected: true,
-          selectedColor: "yellow",
-          selectedBackColor: "darkorange",
-          data: defaultData
-        });
-
-        $('#treeview9').treeview({
-          expandIcon: "glyphicon glyphicon-stop",
-          collapseIcon: "glyphicon glyphicon-unchecked",
-          nodeIcon: "glyphicon glyphicon-user",
-          color: "yellow",
-          backColor: "purple",
-          onhoverColor: "orange",
-          borderColor: "red",
-          showBorder: false,
-          showTags: true,
-          highlightSelected: true,
-          selectedColor: "yellow",
-          selectedBackColor: "darkorange",
-          data: alternateData
-        });
-
-        $('#treeview10').treeview({
-          color: "#428bca",
-          enableLinks: true,
-          data: defaultData
-        });
-
-
-
-        var $searchableTree = $('#treeview-searchable').treeview({
-          data: defaultData,
-        });
-
-        var search = function(e) {
-          var pattern = $('#input-search').val();
-          var options = {
-            ignoreCase: $('#chk-ignore-case').is(':checked'),
-            exactMatch: $('#chk-exact-match').is(':checked'),
-            revealResults: $('#chk-reveal-results').is(':checked')
-          };
-          var results = $searchableTree.treeview('search', [ pattern, options ]);
-
-          var output = '<p>' + results.length + ' matches found</p>';
-          $.each(results, function (index, result) {
-            output += '<p>- ' + result.text + '</p>';
-          });
-          $('#search-output').html(output);
-        }
-
-        $('#btn-search').on('click', search);
-        $('#input-search').on('keyup', search);
-
-        $('#btn-clear-search').on('click', function (e) {
-          $searchableTree.treeview('clearSearch');
-          $('#input-search').val('');
-          $('#search-output').html('');
-        });
-
-
-        var initSelectableTree = function() {
-          return $('#treeview-selectable').treeview({
-            data: defaultData,
-            multiSelect: $('#chk-select-multi').is(':checked'),
-            onNodeSelected: function(event, node) {
-              $('#selectable-output').prepend('<p>' + node.text + ' was selected</p>');
-            },
-            onNodeUnselected: function (event, node) {
-              $('#selectable-output').prepend('<p>' + node.text + ' was unselected</p>');
-            }
-          });
-        };
-        var $selectableTree = initSelectableTree();
-
-        var findSelectableNodes = function() {
-          return $selectableTree.treeview('search', [ $('#input-select-node').val(), { ignoreCase: false, exactMatch: false } ]);
-        };
-        var selectableNodes = findSelectableNodes();
-
-        $('#chk-select-multi:checkbox').on('change', function () {
-          console.log('multi-select change');
-          $selectableTree = initSelectableTree();
-          selectableNodes = findSelectableNodes();          
-        });
-
-        // Select/unselect/toggle nodes
-        $('#input-select-node').on('keyup', function (e) {
-          selectableNodes = findSelectableNodes();
-          $('.select-node').prop('disabled', !(selectableNodes.length >= 1));
-        });
-
-        $('#btn-select-node.select-node').on('click', function (e) {
-          $selectableTree.treeview('selectNode', [ selectableNodes, { silent: $('#chk-select-silent').is(':checked') }]);
-        });
-
-        $('#btn-unselect-node.select-node').on('click', function (e) {
-          $selectableTree.treeview('unselectNode', [ selectableNodes, { silent: $('#chk-select-silent').is(':checked') }]);
-        });
-
-        $('#btn-toggle-selected.select-node').on('click', function (e) {
-          $selectableTree.treeview('toggleNodeSelected', [ selectableNodes, { silent: $('#chk-select-silent').is(':checked') }]);
-        });
-
-
-
-        var $expandibleTree = $('#treeview-expandible').treeview({
-          data: defaultData,
-          onNodeCollapsed: function(event, node) {
-            $('#expandible-output').prepend('<p>' + node.text + ' was collapsed</p>');
-          },
-          onNodeExpanded: function (event, node) {
-            $('#expandible-output').prepend('<p>' + node.text + ' was expanded</p>');
-          }
-        });
-
-        var findExpandibleNodess = function() {
-          return $expandibleTree.treeview('search', [ $('#input-expand-node').val(), { ignoreCase: false, exactMatch: false } ]);
-        };
-        var expandibleNodes = findExpandibleNodess();
-
-        // Expand/collapse/toggle nodes
-        $('#input-expand-node').on('keyup', function (e) {
-          expandibleNodes = findExpandibleNodess();
-          $('.expand-node').prop('disabled', !(expandibleNodes.length >= 1));
-        });
-
-        $('#btn-expand-node.expand-node').on('click', function (e) {
-          var levels = $('#select-expand-node-levels').val();
-          $expandibleTree.treeview('expandNode', [ expandibleNodes, { levels: levels, silent: $('#chk-expand-silent').is(':checked') }]);
-        });
-
-        $('#btn-collapse-node.expand-node').on('click', function (e) {
-          $expandibleTree.treeview('collapseNode', [ expandibleNodes, { silent: $('#chk-expand-silent').is(':checked') }]);
-        });
-
-        $('#btn-toggle-expanded.expand-node').on('click', function (e) {
-          $expandibleTree.treeview('toggleNodeExpanded', [ expandibleNodes, { silent: $('#chk-expand-silent').is(':checked') }]);
-        });
-
-        // Expand/collapse all
-        $('#btn-expand-all').on('click', function (e) {
-          var levels = $('#select-expand-all-levels').val();
-          $expandibleTree.treeview('expandAll', { levels: levels, silent: $('#chk-expand-silent').is(':checked') });
-        });
-
-        $('#btn-collapse-all').on('click', function (e) {
-          $expandibleTree.treeview('collapseAll', { silent: $('#chk-expand-silent').is(':checked') });
-        });
-
-
-
-        var $checkableTree = $('#treeview-checkable').treeview({
-          data: defaultData,
-          showIcon: false,
-          showCheckbox: true,
-          onNodeChecked: function(event, node) {
-            $('#checkable-output').prepend('<p>' + node.text + ' was checked</p>');
-          },
-          onNodeUnchecked: function (event, node) {
-            $('#checkable-output').prepend('<p>' + node.text + ' was unchecked</p>');
-          }
-        });
-
-        var findCheckableNodess = function() {
-          return $checkableTree.treeview('search', [ $('#input-check-node').val(), { ignoreCase: false, exactMatch: false } ]);
-        };
-        var checkableNodes = findCheckableNodess();
-
-        // Check/uncheck/toggle nodes
-        $('#input-check-node').on('keyup', function (e) {
-          checkableNodes = findCheckableNodess();
-          $('.check-node').prop('disabled', !(checkableNodes.length >= 1));
-        });
-
-        $('#btn-check-node.check-node').on('click', function (e) {
-          $checkableTree.treeview('checkNode', [ checkableNodes, { silent: $('#chk-check-silent').is(':checked') }]);
-        });
-
-        $('#btn-uncheck-node.check-node').on('click', function (e) {
-          $checkableTree.treeview('uncheckNode', [ checkableNodes, { silent: $('#chk-check-silent').is(':checked') }]);
-        });
-
-        $('#btn-toggle-checked.check-node').on('click', function (e) {
-          $checkableTree.treeview('toggleNodeChecked', [ checkableNodes, { silent: $('#chk-check-silent').is(':checked') }]);
-        });
-
-        // Check/uncheck all
-        $('#btn-check-all').on('click', function (e) {
-          $checkableTree.treeview('checkAll', { silent: $('#chk-check-silent').is(':checked') });
-        });
-
-        $('#btn-uncheck-all').on('click', function (e) {
-          $checkableTree.treeview('uncheckAll', { silent: $('#chk-check-silent').is(':checked') });
-        });
-
-
-
-        var $disabledTree = $('#treeview-disabled').treeview({
-          data: defaultData,
-          onNodeDisabled: function(event, node) {
-            $('#disabled-output').prepend('<p>' + node.text + ' was disabled</p>');
-          },
-          onNodeEnabled: function (event, node) {
-            $('#disabled-output').prepend('<p>' + node.text + ' was enabled</p>');
-          },
-          onNodeCollapsed: function(event, node) {
-            $('#disabled-output').prepend('<p>' + node.text + ' was collapsed</p>');
-          },
-          onNodeUnchecked: function (event, node) {
-            $('#disabled-output').prepend('<p>' + node.text + ' was unchecked</p>');
-          },
-          onNodeUnselected: function (event, node) {
-            $('#disabled-output').prepend('<p>' + node.text + ' was unselected</p>');
-          }
-        });
-
-        var findDisabledNodes = function() {
-          return $disabledTree.treeview('search', [ $('#input-disable-node').val(), { ignoreCase: false, exactMatch: false } ]);
-        };
-        var disabledNodes = findDisabledNodes();
-
-        // Expand/collapse/toggle nodes
-        $('#input-disable-node').on('keyup', function (e) {
-          disabledNodes = findDisabledNodes();
-          $('.disable-node').prop('disabled', !(disabledNodes.length >= 1));
-        });
-
-        $('#btn-disable-node.disable-node').on('click', function (e) {
-          $disabledTree.treeview('disableNode', [ disabledNodes, { silent: $('#chk-disable-silent').is(':checked') }]);
-        });
-
-        $('#btn-enable-node.disable-node').on('click', function (e) {
-          $disabledTree.treeview('enableNode', [ disabledNodes, { silent: $('#chk-disable-silent').is(':checked') }]);
-        });
-
-        $('#btn-toggle-disabled.disable-node').on('click', function (e) {
-          $disabledTree.treeview('toggleNodeDisabled', [ disabledNodes, { silent: $('#chk-disable-silent').is(':checked') }]);
-        });
-
-        // Expand/collapse all
-        $('#btn-disable-all').on('click', function (e) {
-          $disabledTree.treeview('disableAll', { silent: $('#chk-disable-silent').is(':checked') });
-        });
-
-        $('#btn-enable-all').on('click', function (e) {
-          $disabledTree.treeview('enableAll', { silent: $('#chk-disable-silent').is(':checked') });
-        });
-
-
-
-        var $tree = $('#treeview12').treeview({
-          data: json
-        });
-      });
-  </script> -->
+  
 
 </body>
 </html>
