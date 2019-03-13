@@ -4,30 +4,34 @@
 	<!-- Required meta tags -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, shrink-to-fit=no, user-scalable=0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> -->
     <!-- favicon -->
     <!-- <link rel="shortcut icon" type="image/png" href="assets/images/pdfquick-logo-active.png"> -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- Bootstrap Treeview CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-treeview/1.2.0/bootstrap-treeview.min.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-treeview/1.2.0/bootstrap-treeview.min.css" rel="stylesheet" type="text/css" /> -->
     <!-- Required Stylesheets -->
     <!-- <link href="assets/css/bootstrap-treeview.css" rel="stylesheet"> -->
     <!-- external css -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <!-- Optional JavaScript -->
     <!-- Required Javascript -->
-    <!-- <script src="jquery.js"></script> -->
     <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-treeview/1.2.0/bootstrap-treeview.min.css" rel="stylesheet" type="text/css">
     <script src="assets/js/bootstrap-treeview.js"></script> -->
     <!-- <script src="assets/js/script.js"></script> -->
     <!-- previous position of jquery, popper, and bootstrap js -->
-    <!-- extra for new tree view -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-treeview/1.2.0/bootstrap-treeview.min.js" type="text/javascript"></script> -->
-    <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <link href="css/style.css" rel="stylesheet" id="main-css">
-    <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script> -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Bootstrap Treeview JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-treeview/1.2.0/bootstrap-treeview.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
 </head>
 
 <body>
@@ -36,12 +40,12 @@
   		<a class="navbar-brand ml-5" href="index.php">
         <img src="assets/images/pdfquick-logo-active.png" width="175" height="40" alt="pdfquick logo">  
       </a>
-  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  		<button class="navbar-toggler bg-orange" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     		<span class="navbar-toggler-icon"></span>
   		</button>
 
   		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-    		<ul class="navbar-nav ml-auto">
+    		<ul class="navbar-nav ml-auto text-center">
       		<li class="nav-item">
         		<a class="nav-link mr-5" href="#" id="navhome">HOME <span class="sr-only">(current)</span></a>
       		</li>
@@ -64,182 +68,114 @@
   		</div>
 	</nav>
 
-  <div class="container-fluid bg-light">
-    <!-- breadcrumb -->
-  	<!-- <nav aria-label="breadcrumb mt-2 mb-2" id="crumbbread">
-    		<ol class="breadcrumb">
-      		<li class="breadcrumb-item"><a href="#">Breadcrumb1</a></li>
-      		<li class="breadcrumb-item"><a href="#">Breadcrumb2</a></li>
-      		<li class="breadcrumb-item"><a href="#">Breadcrumb3</a></li> -->
-          <!-- <li class="breadcrumb-item" aria-current="page">Data</li> -->
-    		<!-- </ol>
-  	</nav> -->
-
-    <!-- <div class="btn-group btn-breadcrumb mb-3">
-      <a href="#" class="btn btn-primary">Breadcrumb1</a> -->
-      <!-- <a href="#" class="btn btn-primary"><i class="glyphicon glyphicon-home">Breadcrumb</i></a> -->
-     <!--  <a href="#" class="btn btn-primary">Breadcrumb2</a>
-      <a href="#" class="btn btn-primary">Breadcrumb3</a>
-      <a href="#" class="btn btn-primary">Breadcrumb4</a>
-    </div> -->
-
+  <!-- main container -->
+  <div class="container-fluid" id="maincontainer">
 		<div class="row">
-			<div class="col-lg-1"></div>
-      <div class="col-lg-3">
-        <div class="card mt-3" id="treeview">
-          <div class="card-body text-dark">
-            <h5 class="card-title text-center">Tree Navigation Here</h5>
-            <div id="myTree" class="text-dark"></div>
-            <!-- <h6 class="card-subtitle mb-2"><a href="">W9 (2018)</h6></a>
-            <h6 class="card-subtitle mb-2"><a href="">W9 (2017)</h6></a>
-            <h6 class="card-subtitle mb-2"><a href="">W9 (Rev. 2017)</h6></a>
-            <h6 class="card-subtitle mb-2"><a href="">W9 (2014-2017)</h6></a>
-            <h6 class="card-subtitle mb-2"><a href="">W9 (2014-2016)</h6></a>
-            <h6 class="card-subtitle mb-2"><a href="">W9 (2013)</h6></a>
-            <h6 class="card-subtitle mb-2"><a href="">W9 (2011)</h6></a>
-            <h6 class="card-subtitle mb-2"><a href="">W9 (2007)</h6></a> -->
-            <!-- <p class="card-text text-dark">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a> -->
-          </div>
-        </div>
+			<div class="col-lg-1 col-md-1 col-sm-1"></div>
+      <div class="col-lg-2 col-md-10 col-sm-10">
+        <div id="myTree" class="mt-5"></div>
       </div>
-      <div class="col-lg-2 mt-3 mb-5">
+      <div class="col-lg-3 mt-5 mb-5">
         <!-- breadcrumb -->
-        <nav aria-label="breadcrumb" id="crumbbread">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="#">Parent</a></li>
-              <li class="breadcrumb-item"><a href="#">Child</a></li>
-              <li class="breadcrumb-item"><a href="#">Grandchild</a></li>
-              <!-- <li class="breadcrumb-item" aria-current="page">Data</li> -->
-            </ol>
-        </nav>
+        <div class="row">
+          <div class="col-lg-1 col-md-1 col-sm-1"></div>
+          <div class="col-lg-10 col-md-10 col-sm-10">
+            <nav aria-label="breadcrumb" id="crumbbread">
+                <ol class="breadcrumb blue-grey lighten-4">
+                    <li class="breadcrumb-item"><a class="black-text" href="#">Home</a><i class="fa fa-angle-double-right mx-2" aria-hidden="true"></i></li>
+                    <li class="breadcrumb-item"><a class="black-text" href="#">Library</a><i class="fa fa-angle-double-right mx-2" aria-hidden="true"></i></li>
+                    <li class="breadcrumb-item active">Data</li>
+                </ol>
+            </nav>
 
-        <div class="card mt-3 mb-3">
-          <div class="card-body text-dark">
-            <h6>Fillable Form W9 (2017)</h6>
-            <p class="text-dark">Request for Taxpayer Identification Number and Certification's one of the most commonly used IRS forms. If you've ever been an employee of a company, you've probably completed a Form W-9.</p>
-          </div>
-        </div>
+            <div class="card mt-5 mb-5 shadow rounded" id="fillableform">
+              <div class="card-body text-dark">
+                <h6>Fillable Form W-9 (2014-2016)</h6>
+                <p class="text-dark">The Request for Taxpayer Identification Number and Certification is one of the most commonly used IRS forms. If you've ever been an employee of a company, you've probably completed a Form W-9.</p>
+              </div>
+            </div>
 
-        <div class="card mt-3">
-          <div class="card-body text-dark">
-            <h6>Other versions:</h6>
-            <h6>W9 (2018)</h6>
-            <h6>W9 (2017)</h6>
-            <h6>W9 (Rev. 2017)</h6>
-            <h6>W9 (2014-2017)</h6>
-            <h6>W9 (2014-2016)</h6>
-            <h6>W9 (2013)</h6>
-            <h6>W9 (2011)</h6>
-            <h6>W9 (2007)</h6>
+            <div class="card mt-5 shadow rounded" id="otherversion">
+              <div class="card-body text-dark">
+                <h6>Other versions</h6>
+                <hr>
+                <h6>W9 (2018)</h6>
+                <h6>W9 (2017)</h6>
+                <h6>W9 (Rev. 2017)</h6>
+                <h6>W9 (2014-2017)</h6>
+                <h6>W9 (2014-2016)</h6>
+                <h6>W9 (2013)</h6>
+                <h6>W9 (2011)</h6>
+                <h6>W9 (2007)</h6>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-			<div class="col-lg-2 mt-3 mb-5">
-        <img src="assets/images/form-thumbnail-w9-2018.png" id="sample-img">
+			<div class="col-lg-2 mt-5 mb-5">
+        <div class="row">
+          <div class="col-lg-1 col-md-1 col-sm-1"></div>
+          <div class="col-lg-10 col-md-10 col-sm-10">
+            <a href=""><img src="assets/images/form-thumbnail-w9-2018.png" id="sample-img" class="shadow bg-white rounded"></a>
+          </div>
+        </div>
 			</div>
+      <!-- suggested forms -->
       <div class="col-lg-3">
-        <div class="card mt-3 mb-5" id="formsuggestions">
-          <div class="card-body text-dark">
-            <h5 class="card-title">Suggested Forms</h5>
-            <h6 class="card-subtitle mb-2"><a href="">990-EZ (2017)</h6></a>
-            <h6 class="card-subtitle mb-2"><a href="">941 (2016)</h6></a>
-            <h6 class="card-subtitle mb-2"><a href="">1040X (2016)</h6></a>
-            <h6 class="card-subtitle mb-2"><a href="">W-1 (2016)</h6></a>
-            <h6 class="card-subtitle mb-2"><a href="">4506-T (2017-2018)</h6></a>
-            <h6 class="card-subtitle mb-2"><a href="">W-2C (2014-2017)</h6></a>
-            <h6 class="card-subtitle mb-2"><a href="">1098 (2016)</h6></a>
-            <h6 class="card-subtitle mb-2"><a href="">1065 (2015)</h6></a>
-            <h6 class="card-subtitle mb-2"><a href="">Passport Renewal DS-82 (2013-2016)</h6></a>
-            <h6 class="card-subtitle mb-2"><a href="">VA FORM 21-4138 (2011-2015)</h6></a>
-            <!-- <h6 class="card-subtitle mb-2"><a href="">W9 (2018)</h6></a>
-            <h6 class="card-subtitle mb-2"><a href="">W9 (2017)</h6></a>
-            <h6 class="card-subtitle mb-2"><a href="">W9 (Rev. 2017)</h6></a>
-            <h6 class="card-subtitle mb-2"><a href="">W9 (2014-2017)</h6></a>
-            <h6 class="card-subtitle mb-2"><a href="">W9 (2014-2016)</h6></a>
-            <h6 class="card-subtitle mb-2"><a href="">W9 (2013)</h6></a>
-            <h6 class="card-subtitle mb-2"><a href="">W9 (2011)</h6></a>
-            <h6 class="card-subtitle mb-2"><a href="">W9 (2007)</h6></a> -->
-            <!-- <p class="card-text text-dark">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a> -->
+        <div class="row">
+          <div class="col-lg-1 col-md-1 col-sm-1"></div>
+          <div class="col-lg-10 col-md-10 col-sm-10">
+            <div class="card mt-5 mb-5 shadow rounded" id="formsuggestions">
+              <div class="card-body text-dark">
+                <h4 class="card-title">Suggested Forms</h4>
+                <hr>
+                <h6 class="card-subtitle mb-2"><a href="">990-EZ (2017)</h6></a>
+                <h6 class="card-subtitle mb-2"><a href="">941 (2016)</h6></a>
+                <h6 class="card-subtitle mb-2"><a href="">1040X (2016)</h6></a>
+                <h6 class="card-subtitle mb-2"><a href="">W-1 (2016)</h6></a>
+                <h6 class="card-subtitle mb-2"><a href="">4506-T (2017-2018)</h6></a>
+                <h6 class="card-subtitle mb-2"><a href="">W-2C (2014-2017)</h6></a>
+                <h6 class="card-subtitle mb-2"><a href="">1098 (2016)</h6></a>
+                <h6 class="card-subtitle mb-2"><a href="">1065 (2015)</h6></a>
+                <h6 class="card-subtitle mb-2"><a href="">Passport Renewal DS-82 (2013-2016)</h6></a>
+                <h6 class="card-subtitle mb-2"><a href="">VA FORM 21-4138 (2011-2015)</h6></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-lg-1"></div>
+      <div class="col-lg-1 col-md-1 col-sm-1"></div>
 		</div>
 
-    <!-- <div class="row">
-      <div class="col-lg-1"></div>
-      <div class="col-lg-2"> -->
-        <!-- <div class="card">
-          <div class="card-body text-dark">
-          </div>
-        </div> -->
-      <!-- </div>
-      <div class="col-lg-3">
-        <div class="card">
-          <div class="card-body text-dark">
-            <h6>Other versions:</h6>
-            <h6>W9 (2018)</h6>
-            <h6>W9 (2017)</h6>
-            <h6>W9 (Rev. 2017)</h6>
-            <h6>W9 (2014-2017)</h6>
-            <h6>W9 (2014-2016)</h6>
-            <h6>W9 (2013)</h6>
-            <h6>W9 (2011)</h6>
-            <h6>W9 (2007)</h6>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3"> -->
-        <!-- <button type="button" class="btn btn-primary ml-5 py-3 px-5">FILL ONLINE</button> --> 
-      <!-- </div>
-      <div class="col-lg-2"></div>
-    </div> -->
-
+    <!-- keywords -->
 		<div class="row">
-			<div class="col-lg-1"></div>
-			<!-- <div class="col-lg-2"> -->
-        <!-- <div class="card mb-3">
-          <div class="card-body text-dark">
-          </div>
-        </div> -->
-			<!-- </div> -->
-      <div class="col-lg-10">
-        <div class="bg-light mb-3">
+			<div class="col-lg-1 col-md-1 col-sm-1"></div>
+      <div class="col-lg-10 col-md-10 col-sm-10">
+        <div class="mb-5 mt-5 pl-5 pr-5 pb-5 pt-5" id="KeyWords">
           <h5 class="text-dark mb-5">Keywords</h5>
-          <button type="button" class="btn btn-gray text-dark pl-2 pr-2 pb-2 pt-2 ml-2 mr-2">w9 2018</button>
-          <button type="button" class="btn btn-gray text-dark pl-2 pr-2 pb-2 pt-2 ml-2 mr-2">w9 form</button>
-          <button type="button" class="btn btn-gray text-dark pl-2 pr-2 pb-2 pt-2 ml-2 mr-2">w9 online</button>
-          <button type="button" class="btn btn-gray text-dark pl-2 pr-2 pb-2 pt-2 ml-2 mr-2">blank w9</button>
-          <button type="button" class="btn btn-gray text-dark pl-2 pr-2 pb-2 pt-2 ml-2 mr-2">blank w9 online</button>
-          <button type="button" class="btn btn-gray text-dark pl-2 pr-2 pb-2 pt-2 ml-2 mr-2">blank w9 form</button>
-          <button type="button" class="btn btn-gray text-dark pl-2 pr-2 pb-2 pt-2 ml-2 mr-2">blank w9 form online</button>
-          <button type="button" class="btn btn-gray text-dark pl-2 pr-2 pb-2 pt-2 ml-2 mr-2">w9 form online</button>
+          <button type="button" class="keyWord btn btn-gray text-dark pl-2 pr-2 pb-2 pt-2 ml-2 mr-2" id="kw1">w9 2018</button>
+          <button type="button" class="keyWord btn btn-gray text-dark pl-2 pr-2 pb-2 pt-2 ml-2 mr-2" id="kw2">w9 form</button>
+          <button type="button" class="keyWord btn btn-gray text-dark pl-2 pr-2 pb-2 pt-2 ml-2 mr-2" id="kw3">w9 online</button>
+          <button type="button" class="keyWord btn btn-gray text-dark pl-2 pr-2 pb-2 pt-2 ml-2 mr-2" id="kw4">blank w9</button>
+          <button type="button" class="keyWord btn btn-gray text-dark pl-2 pr-2 pb-2 pt-2 ml-2 mr-2" id="kw5">blank w9 online</button>
+          <button type="button" class="keyWord btn btn-gray text-dark pl-2 pr-2 pb-2 pt-2 ml-2 mr-2" id="kw6">blank w9 form</button>
+          <button type="button" class="keyWord btn btn-gray text-dark pl-2 pr-2 pb-2 pt-2 ml-2 mr-2" id="kw7">blank w9 form online</button>
+          <button type="button" class="keyWord btn btn-gray text-dark pl-2 pr-2 pb-2 pt-2 ml-2 mr-2" id="kw8">w9 form online</button>
+          <button type="button" class="keyWord btn btn-gray text-dark pl-2 pr-2 pb-2 pt-2 ml-2 mr-2" id="kw9">w9 2018 blank</button>
+          <button type="button" class="keyWord btn btn-gray text-dark pl-2 pr-2 pb-2 pt-2 ml-2 mr-2" id="kw10">w9 2018 online</button>
+          <button type="button" class="keyWord btn btn-gray text-dark pl-2 pr-2 pb-2 pt-2 ml-2 mr-2" id="kw11">w9 online form</button>
         </div>
       </div>
-      <!-- <div class="col-lg-3"></div> -->
-      <!-- <div class="col-lg-2"></div> -->
+      <div class="col-lg-1 col-md-1 col-sm-1"></div>
 		</div>
 	</div>
 
-	<footer class="footer-light bg-dark text-center text-white mt-5 pt-5 pb-5">
+	<footer class="footer-light bg-dark text-center text-white pt-5 pb-5" id="footerMob">
 	Copyright &copy; 2019 PDFQuick.com | All Rights Reserved.
 	</footer>
 
-  <!-- <script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-treeview/1.2.0/bootstrap-treeview.min.js" type="text/javascript"></script> -->
-
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <!-- Bootstrap Treeview JS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-treeview/1.2.0/bootstrap-treeview.min.js" type="text/javascript"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   <script type="text/javascript">
-    $(document).ready(function(){
+    // $(document).ready(function(){
         var treeData = [
             {
                 text: "Parent-1",
@@ -276,7 +212,7 @@
         $('#myTree').treeview({
             data: treeData
         });
-    });
+    // });
     </script>
 
 </body>
