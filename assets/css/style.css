@@ -5,15 +5,17 @@
 	color: white;
 }
 
-/*#barnav {
-	margin-right: 75px;
-}*/
+#barnav {
+	/*margin-right: 75px;*/
+
+}
 
 #crumbbread {
 	background-color: none;
 }
 
-#sample-img {
+/*form thumbnail*/
+#form-thumbnail {
 	height: 35vh;
 	width: 15vw;
 }
@@ -61,7 +63,7 @@
   background-color: #e2ebf0;
 }
 
-/*all_keywords*/
+/*all keywords*/
 .keyWord {
   border: 1px solid black;
   margin-bottom: 15px;
@@ -89,26 +91,75 @@
 .btn-breadcrumb .btn.btn-warning:hover:not(:last-child):before {
   border-left: 10px solid #d58512;
 }
+.fa-angle-double-right:before {
+    /*content: "\f101";*/
+    color: orange;
+}
+
+#btnCta {
+  margin-left: 50px;
+}
+
+hr {
+  border: 1px solid black;
+  /*font-weight: bold;*/
+}
+
+#features {
+  height: 45vh;
+  width: 36vw;
+}
 
 /*Laptop*/
 @media only screen and (min-width: 1280px) and (max-width: 1440px) {
-
+  #form-thumbnail {
+    /*width: 20vw;*/
+  }
+  #btnCta {
+  margin-left: 25px;
+  }
 }
 
-@media only screen and (min-width: 401px) and (max-width: 1024px) {
-  #sample-img {
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+  #btnCta {
+  margin-left: 5px;
+  }
+}
+
+/*Tablet to some Laptop*/
+@media only screen and (min-width: 415px) and (max-width: 1024px) {
+  #form-thumbnail {
     width: ;
     height: 15vh;
+  }
+  #btnCta {
+  margin-left: 20px;
   }
 }
 
 /*Tablet*/
+
+@media only screen and (min-width: 800px) and (max-width: 1024px) {
+  #btnCta {
+    margin-left: 195px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 799px) {
+  #navBrand, .navbar-brand {
+    margin-left: 0px;
+  }
+  #btnCta {
+    margin-left: 135px;
+  }
+}
+
 @media only screen and (min-width: 401px) and (max-width: 960px) {
   .keyWord {
     margin-top: 5px; 
     margin-bottom: 5px;
   }
-  #sample-img {
+  #form-thumbnail {
   height: 35vh;
   width: 40vw;
   margin-left: 65px;
@@ -117,14 +168,24 @@
 }
 
 @media only screen and (min-width: 401px) and (max-width: 800px) {
-  #sample-img {
+  #form-thumbnail {
     margin-left: 140px;
   }
 }
 
+@media only screen and (min-width: 401px) and (max-width: 414px) {
+  /*#form-thumbnail {
+    width: ;
+    height: 15vh;
+  }*/
+  /*#btnCta {
+    margin-left: 5px;
+  }*/
+}
+
 /*Some Mobile, Tablet, and Touchscreen Laptops*/
 @media only screen and (min-width: 375px) and (max-width: 640px) {
-  #sample-img {
+  #form-thumbnail {
     /*height: ;*/
     width: 30vh;
     margin-left: 180px;
@@ -132,12 +193,27 @@
 }
 
 @media only screen and (min-width: 375px) and (max-width: 600px) {
-  #sample-img {
+  #form-thumbnail {
     margin-left: 85px;
   }
 }
 
 /*Mobile*/
+@media only screen and (min-width: 320px) and (max-width: 640px) {
+  #navBrand, .navbar-brand {
+    margin-left: 0px;
+  }
+  .navbar-nav {
+    /*margin-left: 0px;*/
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  #btnCta {
+    margin-left: 65px;
+  }
+}
+
 @media only screen and (max-width: 400px) {
   #footerMob {
     padding-right: 5px;
@@ -147,7 +223,7 @@
     margin-top: 5px; 
     margin-bottom: 5px;
   }
-  #sample-img {
+  #form-thumbnail {
   height: 35vh;
   width: 50vw;
   margin-left: 65px;
