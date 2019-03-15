@@ -171,12 +171,20 @@ hr {
   #btnCta {
   margin-left: 25px;
   }
+  #formsuggestions {
+  margin-left: 0px;
+  /*margin-top: 35px;*/
+    }
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1280px) {
   #btnCta {
   margin-left: 5px;
   }
+  #formsuggestions {
+  margin-left: 0px;
+  /*margin-top: 35px;*/
+    }
 }
 
 /*Tablet to some Laptop*/
@@ -188,6 +196,10 @@ hr {
   #btnCta {
   margin-left: 20px;
   }
+  #formsuggestions {
+  margin-left: 0px;
+  /*margin-top: 35px;*/
+    }
 }
 
 /*Tablet*/
@@ -196,12 +208,20 @@ hr {
   #btnCta {
     margin-left: 195px;
   }
+  #formsuggestions {
+  margin-left: 0px;
+  /*margin-top: 35px;*/
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 799px) {
   #btnCta {
     margin-left: 215px;
   }
+  #formsuggestions {
+  margin-left: 0px;
+  /*margin-top: 35px;*/
+    }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 767px) {
@@ -211,6 +231,10 @@ hr {
   #btnCta {
     margin-left: 135px;
   }
+  #formsuggestions {
+  margin-left: 0px;
+  /*margin-top: 35px;*/
+    }
 }
 
 @media only screen and (min-width: 401px) and (max-width: 960px) {
@@ -224,12 +248,20 @@ hr {
   margin-left: 65px;
   /*margin-right: 15px;*/
   }
+  #formsuggestions {
+  margin-left: 0px;
+  /*margin-top: 35px;*/
+    }
 }
 
 @media only screen and (min-width: 401px) and (max-width: 800px) {
   #form-thumbnail {
     margin-left: 140px;
   }
+  #formsuggestions {
+  margin-left: 0px;
+  /*margin-top: 35px;*/
+    }
 }
 
 @media only screen and (min-width: 401px) and (max-width: 414px) {
@@ -240,6 +272,10 @@ hr {
   /*#btnCta {
     margin-left: 5px;
   }*/
+  #formsuggestions {
+  margin-left: 0px;
+  /*margin-top: 35px;*/
+    }
 }
 
 /*Some Mobile, Tablet, and Touchscreen Laptops*/
@@ -249,12 +285,20 @@ hr {
     width: 30vh;
     margin-left: 180px;
   }
+  #formsuggestions {
+  margin-left: 0px;
+  /*margin-top: 35px;*/
+    }
 }
 
 @media only screen and (min-width: 375px) and (max-width: 600px) {
   #form-thumbnail {
     margin-left: 85px;
   }
+  #formsuggestions {
+  margin-left: 0px;
+  /*margin-top: 35px;*/
+    }
 }
 
 /*Mobile*/
@@ -265,12 +309,20 @@ hr {
   .navbar-nav {
     /*margin-left: 0px;*/
   }
+  #formsuggestions {
+  margin-left: 0px;
+  /*margin-top: 35px;*/
+    }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   #btnCta {
     margin-left: 65px;
   }
+  #formsuggestions {
+  margin-left: 0px;
+  /*margin-top: 35px;*/
+    }
 }
 
 @media only screen and (max-width: 400px) {
@@ -287,4 +339,8 @@ hr {
   width: 50vw;
   margin-left: 65px;
   }
+  #formsuggestions {
+  margin-left: 0px;
+  /*margin-top: 35px;*/
+    }
 }
