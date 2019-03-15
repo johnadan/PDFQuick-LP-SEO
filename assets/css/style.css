@@ -79,7 +79,7 @@
 
 /*suggested forms card*/
 #formsuggestions {
-  margin-left: 105px;
+  /*margin-left: 105px;*/
   /*margin-top: 35px;*/
 }
 
@@ -151,6 +151,7 @@ hr {
   height: 0 auto;
   width: 36vw;
   background-color: #e8e8e8;
+  margin-top: 280px;
   /*border: 1px solid gray;*/
 }
 
