@@ -10,14 +10,20 @@
 
 }
 
+/*breadcrumb*/
 #crumbbread {
-	background-color: none;
+	/*background-color: none;*/
+  /*margin-bottom: 8px;*/
 }
 
 /*form thumbnail*/
 #form-thumbnail {
 	height: 35vh;
 	width: 15vw;
+}
+
+#myTree {
+  /*background-color: #e8e8e8;*/
 }
 
 .footer {
@@ -31,10 +37,55 @@
 	font-weight: bold;
 }
 
+.fa-file:before {
+    /*content: "\f15b";*/
+    color: gray;
+}
+
+.fa-envelope:before {
+    /*content: "\f15b";*/
+    color: gray;
+}
+
+.fa-slideshare:before {
+    /*content: "\f15b";*/
+    color: gray;
+}
+
+.fa-comments:before {
+    /*content: "\f15b";*/
+    color: gray;
+}
+
+.fa-file-signature:before {
+    /*content: "\f15b";*/
+    color: gray;
+}
+
+.fa-edit:before {
+    /*content: "\f15b";*/
+    color: gray;
+}
+
+.fa-file-download:before {
+    /*content: "\f15b";*/
+    color: gray;
+}
+
+.fa-print:before {
+    /*content: "\f15b";*/
+    color: gray;
+}
+
 /*suggested forms card*/
+#formsuggestions {
+  margin-left: 105px;
+  /*margin-top: 35px;*/
+}
+
 #formsuggestions, #fillableform, #otherversion {
   border: 1px solid black;
-  background-color: #e2ebf0;
+  background-color: #e8e8e8;
   /*width: 20rem;*/
   /*height: 30vh;*/
 }
@@ -42,8 +93,10 @@
 /*treeview holder*/
 #treeview {
   /*height: 75vh;*/
+  /*background-color: #e8e8e8;*/
 }
 
+/*keywords and fill online btn*/
 .btn:hover {
   background-color: orange;
 }
@@ -60,7 +113,7 @@
   /*background-color: #97a4b7;*/
   /*background-color: #d2d2d2;*/
   /*background-color: #979fb2;*/
-  background-color: #e2ebf0;
+  background-color: #e8e8e8;
 }
 
 /*all keywords*/
@@ -78,19 +131,7 @@
   color: black!important;
 }
 
-/** Warning breadcrumb **/
-.btn-breadcrumb .btn.btn-warning:not(:last-child):after {
-  border-left: 10px solid #f0ad4e;
-}
-.btn-breadcrumb .btn.btn-warning:not(:last-child):before {
-  border-left: 10px solid #eea236;
-}
-.btn-breadcrumb .btn.btn-warning:hover:not(:last-child):after {
-  border-left: 10px solid #ed9c28;
-}
-.btn-breadcrumb .btn.btn-warning:hover:not(:last-child):before {
-  border-left: 10px solid #d58512;
-}
+/*breadcrumb icons*/
 .fa-angle-double-right:before {
     /*content: "\f101";*/
     color: orange;
@@ -98,6 +139,7 @@
 
 #btnCta {
   margin-left: 50px;
+  /*letter-spacing: 1px;*/
 }
 
 hr {
@@ -106,9 +148,20 @@ hr {
 }
 
 #features {
-  height: 45vh;
+  height: 0 auto;
   width: 36vw;
+  background-color: #e8e8e8;
+  /*border: 1px solid gray;*/
 }
+
+#rowKeyword {
+  background-color: #ccd0d2;
+}
+
+/*features card*/
+/*element.style {
+    color: black;
+}*/
 
 /*Laptop*/
 @media only screen and (min-width: 1280px) and (max-width: 1440px) {
@@ -145,7 +198,13 @@ hr {
   }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 799px) {
+@media only screen and (min-width: 768px) and (max-width: 799px) {
+  #btnCta {
+    margin-left: 215px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
   #navBrand, .navbar-brand {
     margin-left: 0px;
   }
