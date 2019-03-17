@@ -39,42 +39,42 @@
 
 .fa-file:before {
     /*content: "\f15b";*/
-    color: gray;
+    color: #3c5a95;
 }
 
 .fa-envelope:before {
     /*content: "\f15b";*/
-    color: gray;
+    color: #3c5a95;
 }
 
 .fa-slideshare:before {
     /*content: "\f15b";*/
-    color: gray;
+    color: #3c5a95;
 }
 
 .fa-comments:before {
     /*content: "\f15b";*/
-    color: gray;
+    color: #3c5a95;
 }
 
 .fa-file-signature:before {
     /*content: "\f15b";*/
-    color: gray;
+    color: #3c5a95;
 }
 
 .fa-edit:before {
     /*content: "\f15b";*/
-    color: gray;
+    color: #3c5a95;
 }
 
 .fa-file-download:before {
     /*content: "\f15b";*/
-    color: gray;
+    color: #3c5a95;
 }
 
 .fa-print:before {
     /*content: "\f15b";*/
-    color: gray;
+    color: #3c5a95;
 }
 
 /*suggested forms card*/
@@ -83,8 +83,12 @@
   /*margin-top: 35px;*/
 }
 
+  /*{
+  background-color: #e8e8e8;
+ }*/
+
 #formsuggestions, #fillableform, #otherversion {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   background-color: #e8e8e8;
   /*width: 20rem;*/
   /*height: 30vh;*/
@@ -142,6 +146,10 @@
   /*letter-spacing: 1px;*/
 }
 
+#btnCta-2 {
+  margin-left: 150px;
+}
+
 hr {
   border: 1px solid black;
   /*font-weight: bold;*/
@@ -155,8 +163,12 @@ hr {
   /*border: 1px solid gray;*/
 }
 
-#rowKeyword {
+#feature {
   background-color: #ccd0d2;
+}
+
+#rowKeyword {
+  background-color: #6e7b85;
 }
 
 /*features card*/
@@ -175,6 +187,12 @@ hr {
   #formsuggestions {
   margin-left: 0px;
   /*margin-top: 35px;*/
+    }
+    #features {
+      margin-top: 575px;
+    }
+    #email, #print, #download, #annotate, #share {
+      padding-left: 0px;
     }
 }
 
