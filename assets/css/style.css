@@ -223,6 +223,8 @@ hr {
 
 /*Tablet*/
 
+/*@media only screen and (min-width: 768px) and (max-width: 800px)*/
+
 @media only screen and (min-width: 800px) and (max-width: 1024px) {
   #btnCta {
     margin-left: 195px;
@@ -231,6 +233,23 @@ hr {
   margin-left: 0px;
   /*margin-top: 35px;*/
     }
+    #onlinefill {
+      margin-left: 250px;
+    }
+    #FillOnline {
+      margin-left: 250px;
+    }
+    #email, #iconemail {
+      margin-left: 250px;
+    }
+    #iconshare, #share {
+      margin-left: 240px;
+    }
+    #iconsign, #sign {
+      margin-left: 240px;
+    }
+    #btnCta-2 {
+  margin-left: 160px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 799px) {
@@ -241,6 +260,7 @@ hr {
   margin-left: 0px;
   /*margin-top: 35px;*/
     }
+
 }
 
 @media only screen and (min-width: 600px) and (max-width: 767px) {
@@ -253,6 +273,24 @@ hr {
   #formsuggestions {
   margin-left: 0px;
   /*margin-top: 35px;*/
+    }
+    #btnCta-2 {
+  margin-left: 95px;
+    }
+    #onlinefill {
+      margin-left: 190px;
+    }
+    #FillOnline {
+      margin-left: 175px;
+    }
+    #email, #iconemail {
+      margin-left: 185px;
+    }
+    #iconshare, #share {
+      margin-left: 168px;
+    }
+    #iconsign, #sign {
+      margin-left: 163px;
     }
 }
 
@@ -308,6 +346,27 @@ hr {
   margin-left: 0px;
   /*margin-top: 35px;*/
     }
+    /*#btnCta-2 {
+  margin-left: 95px;
+    }*/
+    #onlinefill {
+      margin-left: 190px;
+    }
+    #FillOnline {
+      margin-left: 175px;
+    }
+    #email, #iconemail {
+      margin-left: 185px;
+    }
+    #iconshare, #share {
+      margin-left: 168px;
+    }
+    #iconsign, #sign {
+      margin-left: 163px;
+    }
+    #btaCta-2 {
+      margin-left: 75px;
+    }
 }
 
 @media only screen and (min-width: 375px) and (max-width: 600px) {
@@ -341,6 +400,33 @@ hr {
   #formsuggestions {
   margin-left: 0px;
   /*margin-top: 35px;*/
+    }
+    #onlinefill  {
+      margin-left: 115px;
+    }
+      #FillOnline {
+        margin-left: 100px;
+      }
+    #iconemail {
+      margin-left: 115px;
+    }
+    #iconshare {
+      margin-left: 98px;
+    }
+    #share {
+      margin-left: 100px;
+    }
+     #iconsign {
+      margin-left: 90px;
+     }
+      #sign {
+        margin-left: 110px;
+      }
+    #email {
+      margin-left: 115px;
+    }
+    #btnCta-2 {
+      margin-left: 60px;
     }
 }
 
