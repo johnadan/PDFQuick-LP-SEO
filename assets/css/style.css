@@ -147,7 +147,7 @@
 }
 
 #btnCta-2 {
-  margin-left: 150px;
+  margin-left: 250px;
 }
 
 hr {
@@ -176,7 +176,7 @@ hr {
     color: black;
 }*/
 
-/*Laptop*/
+/*Laptop and some Desktop*/
 @media only screen and (min-width: 1280px) and (max-width: 1440px) {
   #form-thumbnail {
     /*width: 20vw;*/
