@@ -205,12 +205,12 @@ hr {
   /*margin-top: 35px;*/
     }
     #btnCta-2 {
-        margin-left: 50px;
+        margin-left: 150px;
     }
 }
 
 /*Tablet to some Laptop*/
-@media only screen and (min-width: 415px) and (max-width: 1024px) {
+@media only screen and (min-width: 415px) and (max-width: 1023px) {
   #form-thumbnail {
     width: ;
     height: 15vh;
@@ -228,7 +228,7 @@ hr {
 
 /*@media only screen and (min-width: 768px) and (max-width: 800px)*/
 
-@media only screen and (min-width: 800px) and (max-width: 1024px) {
+@media only screen and (min-width: 800px) and (max-width: 1023px) {
   #btnCta {
     margin-left: 195px;
   }
@@ -312,6 +312,15 @@ hr {
   margin-left: 0px;
   /*margin-top: 35px;*/
     }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 800px) {
+  /*#btaCta-2 {
+    margin-left: 25px;
+  }*/
+  /*#onlinefill {
+      margin-left: 250px;
+    }*/
 }
 
 @media only screen and (min-width: 401px) and (max-width: 800px) {
@@ -453,7 +462,7 @@ hr {
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 319px) {
   #footerMob {
     padding-right: 5px;
     padding-left: 5px;
