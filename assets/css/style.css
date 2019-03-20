@@ -38,66 +38,59 @@
 }
 
 .fa-file:before {
-    /*content: "\f15b";*/
+    
     color: #3c5a95;
 }
 
 .fa-envelope:before {
-    /*content: "\f15b";*/
+    
     color: #3c5a95;
 }
 
 .fa-slideshare:before {
-    /*content: "\f15b";*/
+    
     color: #3c5a95;
 }
 
 .fa-comments:before {
-    /*content: "\f15b";*/
+    
     color: #3c5a95;
 }
 
 .fa-file-signature:before {
-    /*content: "\f15b";*/
+   
     color: #3c5a95;
 }
 
 .fa-edit:before {
-    /*content: "\f15b";*/
+    
     color: #3c5a95;
 }
 
 .fa-file-download:before {
-    /*content: "\f15b";*/
+    
     color: #3c5a95;
 }
 
 .fa-print:before {
-    /*content: "\f15b";*/
+    
     color: #3c5a95;
 }
 
 /*suggested forms card*/
 #formsuggestions {
-  /*margin-left: 105px;*/
-  /*margin-top: 35px;*/
+  
 }
 
-  /*{
-  background-color: #e8e8e8;
- }*/
-
 #formsuggestions, #fillableform, #otherversion {
-  /*border: 1px solid black;*/
+  
   background-color: #e8e8e8;
-  /*width: 20rem;*/
-  /*height: 30vh;*/
+  
 }
 
 /*treeview holder*/
 #treeview {
-  /*height: 75vh;*/
-  /*background-color: #e8e8e8;*/
+  
 }
 
 /*keywords and fill online btn*/
@@ -109,14 +102,8 @@
   outline: 2px solid orange;
 }
 
-/*#KeyWords {
-  background-color: #97a4b7;
-}*/
-
 #maincontainer {
-  /*background-color: #97a4b7;*/
-  /*background-color: #d2d2d2;*/
-  /*background-color: #979fb2;*/
+  
   background-color: #e8e8e8;
 }
 
@@ -137,22 +124,22 @@
 
 /*breadcrumb icons*/
 .fa-angle-double-right:before {
-    /*content: "\f101";*/
+    
     color: orange;
 }
 
 #btnCta {
   margin-left: 50px;
-  /*letter-spacing: 1px;*/
+  
 }
 
 #btnCta-2 {
-  margin-left: 255px;
+  margin-left: 265px;
 }
 
 hr {
   border: 1px solid black;
-  /*font-weight: bold;*/
+  
 }
 
 #features {
@@ -160,7 +147,7 @@ hr {
   width: 36vw;
   background-color: #e8e8e8;
   margin-top: 280px;
-  /*border: 1px solid gray;*/
+  
 }
 
 #feature {
@@ -171,10 +158,6 @@ hr {
   background-color: #6e7b85;
 }
 
-/*features card*/
-/*element.style {
-    color: black;
-}*/
 
 /*Laptop and some Desktop*/
 @media only screen and (min-width: 1280px) and (max-width: 1440px) {
@@ -196,6 +179,7 @@ hr {
     }
 }
 
+/*some desktop*/
 @media only screen and (min-width: 1024px) and (max-width: 1280px) {
   #btnCta {
   margin-left: 5px;
@@ -210,31 +194,20 @@ hr {
 }
 
 /*Tablet to some Laptop*/
-@media only screen and (min-width: 415px) and (max-width: 1023px) {
+
+
+/*Tablet*/
+
+@media only screen and (min-width: 800px) and (max-width: 1023px) {
   #form-thumbnail {
     width: ;
     height: 15vh;
   }
   #btnCta {
-  margin-left: 20px;
-  }
-  #formsuggestions {
-  margin-left: 0px;
-  /*margin-top: 35px;*/
-    }
-}
-
-/*Tablet*/
-
-/*@media only screen and (min-width: 768px) and (max-width: 800px)*/
-
-@media only screen and (min-width: 800px) and (max-width: 1023px) {
-  #btnCta {
     margin-left: 195px;
   }
   #formsuggestions {
   margin-left: 0px;
-  /*margin-top: 35px;*/
     }
     #onlinefill {
       margin-left: 250px;
@@ -261,7 +234,6 @@ hr {
   }
   #formsuggestions {
   margin-left: 0px;
-  /*margin-top: 35px;*/
     }
 
 }
@@ -275,7 +247,6 @@ hr {
   }
   #formsuggestions {
   margin-left: 0px;
-  /*margin-top: 35px;*/
     }
     #btnCta-2 {
   margin-left: 95px;
@@ -297,7 +268,7 @@ hr {
     }
 }
 
-@media only screen and (min-width: 401px) and (max-width: 960px) {
+@media only screen and (min-width: 801px) and (max-width: 960px) {
   .keyWord {
     margin-top: 5px; 
     margin-bottom: 5px;
@@ -306,61 +277,43 @@ hr {
   height: 35vh;
   width: 40vw;
   margin-left: 65px;
-  /*margin-right: 15px;*/
+  
   }
   #formsuggestions {
   margin-left: 0px;
-  /*margin-top: 35px;*/
+  
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 800px) {
-  /*#btaCta-2 {
+  #btaCta-2 {
     margin-left: 25px;
-  }*/
-  /*#onlinefill {
+  }
+  #onlinefill {
       margin-left: 250px;
-    }*/
+    }
 }
 
-@media only screen and (min-width: 401px) and (max-width: 800px) {
+@media only screen and (min-width: 600px) and (max-width: 767px) {
   #form-thumbnail {
-    margin-left: 140px;
+    margin-left: 85px;
+  }
+    #btaCta-2 {
+      margin-left: 75px;
+    }
+
+     #navBrand, .navbar-brand {
+    margin-left: 0px;
+  }
+  #btnCta {
+    margin-left: 135px;
   }
   #formsuggestions {
   margin-left: 0px;
-  /*margin-top: 35px;*/
     }
-}
-
-@media only screen and (min-width: 401px) and (max-width: 414px) {
-  /*#form-thumbnail {
-    width: ;
-    height: 15vh;
-  }*/
-  /*#btnCta {
-    margin-left: 5px;
-  }*/
-  #formsuggestions {
-  margin-left: 0px;
-  /*margin-top: 35px;*/
-    }
-}
-
-/*Some Mobile, Tablet, and Touchscreen Laptops*/
-@media only screen and (min-width: 375px) and (max-width: 640px) {
-  #form-thumbnail {
-    /*height: ;*/
-    width: 30vh;
-    margin-left: 180px;
-  }
-  #formsuggestions {
-  margin-left: 0px;
-  /*margin-top: 35px;*/
-    }
-    /*#btnCta-2 {
+    #btnCta-2 {
   margin-left: 95px;
-    }*/
+    }
     #onlinefill {
       margin-left: 190px;
     }
@@ -376,25 +329,14 @@ hr {
     #iconsign, #sign {
       margin-left: 163px;
     }
-    #btaCta-2 {
-      margin-left: 75px;
-    }
-}
-
-@media only screen and (min-width: 375px) and (max-width: 600px) {
-  #form-thumbnail {
-    margin-left: 85px;
-  }
-  #formsuggestions {
-  margin-left: 0px;
-  /*margin-top: 35px;*/
-    }
 }
 
 /*Mobile*/
 
-
-@media only screen and (min-width: 320px) and (max-width: 640px) {
+@media only screen and (min-width: 481px) and (max-width: 599px) {
+  #btnCta {
+    margin-left: 10px;
+  }
   #navBrand, .navbar-brand {
     margin-left: 0px;
   }
@@ -403,20 +345,13 @@ hr {
   }
   #formsuggestions {
   margin-left: 0px;
-  /*margin-top: 35px;*/
     }
     #form-thumbnail {
     margin-left: 55px;
   }
 }
 
-@media only screen and (min-width: 361px) and (max-width: 600px) {
-  #btnCta {
-    margin-left: 10px;
-  }
-}
-
-@media only screen and (min-width: 320px) and (max-width: 360px) {
+@media only screen and (min-width: 361px) and (max-width: 480px) {
   #btnCta {
     margin-left: 15px;
   }
@@ -426,16 +361,15 @@ hr {
 
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 360px) {
   #btnCta {
     margin-left: 65px;
   }
   #formsuggestions {
   margin-left: 0px;
-  /*margin-top: 35px;*/
     }
     #onlinefill  {
-      margin-left: 115px;
+      margin-left: 250px;
     }
       #FillOnline {
         margin-left: 100px;
@@ -459,8 +393,17 @@ hr {
       margin-left: 115px;
     }
     #btnCta-2 {
-      margin-left: 60px;
+      margin-left: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+      margin-right: 0px;
     }
+    #form-thumbnail {
+    width: 50vw;
+  }
+  /*#btnCta-2 {
+    margin-left: 15px;
+  }*/
 }
 
 @media only screen and (max-width: 319px) {
@@ -479,9 +422,5 @@ hr {
   }
   #formsuggestions {
   margin-left: 0px;
-  /*margin-top: 35px;*/
     }
-    /*#onlinefill {
-      margin-left: 150px;
-    }*/
 }
