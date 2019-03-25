@@ -335,7 +335,7 @@ hr {
 
 @media only screen and (min-width: 481px) and (max-width: 599px) {
   #btnCta {
-    margin-left: 10px;
+    display: none;
   }
   #navBrand, .navbar-brand {
     margin-left: 0px;
@@ -353,7 +353,7 @@ hr {
 
 @media only screen and (min-width: 361px) and (max-width: 480px) {
   #btnCta {
-    margin-left: 15px;
+    display: none;
   }
   #btnCta-2 {
       margin-left: 20px;
@@ -363,7 +363,8 @@ hr {
 
 @media only screen and (min-width: 320px) and (max-width: 360px) {
   #btnCta {
-    margin-left: 65px;
+    display: none !important;
+    visibility: hidden;
   }
   #formsuggestions {
   margin-left: 0px;
@@ -399,7 +400,9 @@ hr {
       margin-right: 0px;
     }
     #form-thumbnail {
-    width: 50vw;
+    /*width: 50vw;*/
+    display: none !important;
+    visibility: hidden;
   }
   /*#btnCta-2 {
     margin-left: 15px;
