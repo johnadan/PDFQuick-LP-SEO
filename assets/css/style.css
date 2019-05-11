@@ -365,6 +365,7 @@ hr {
   #btnCta {
     display: none !important;
     visibility: hidden;
+    margin: 28px;
   }
   #formsuggestions {
   margin-left: 0px;
@@ -403,6 +404,10 @@ hr {
     /*width: 50vw;*/
     display: none !important;
     visibility: hidden;
+    width: 45vw;
+    height: 45vh;
+    width: 55vw;
+    margin: 25px;
   }
   /*#btnCta-2 {
     margin-left: 15px;
