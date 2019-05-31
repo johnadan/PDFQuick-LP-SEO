@@ -26,13 +26,22 @@
   /*background-color: #e8e8e8;*/
 }
 
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .footer {
 	width: 100%;
 	position: absolute;
 	padding: 2px;
 }
 
-#navhome, #navsupport, #navpricing, #navabout, #navcontact, #navlogin {
+#navhome, 
+#navsupport, 
+#navpricing, 
+#navabout, 
+#navcontact, 
+#navlogin {
 	color: orange;
 	font-weight: bold;
 }
@@ -82,7 +91,9 @@
   
 }
 
-#formsuggestions, #fillableform, #otherversion {
+#formsuggestions, 
+#fillableform, 
+#otherversion {
   
   background-color: #e8e8e8;
   
@@ -174,7 +185,11 @@ hr {
     #features {
       margin-top: 575px;
     }
-    #email, #print, #download, #annotate, #share {
+    #email, 
+    #print, 
+    #download, 
+    #annotate, 
+    #share {
       padding-left: 0px;
     }
 }
@@ -239,7 +254,8 @@ hr {
 }
 
 @media only screen and (min-width: 600px) and (max-width: 767px) {
-  #navBrand, .navbar-brand {
+  #navBrand, 
+  .navbar-brand {
     margin-left: 0px;
   }
   #btnCta {
@@ -302,7 +318,8 @@ hr {
       margin-left: 75px;
     }
 
-     #navBrand, .navbar-brand {
+     #navBrand, 
+     .navbar-brand {
     margin-left: 0px;
   }
   #btnCta {
@@ -320,13 +337,16 @@ hr {
     #FillOnline {
       margin-left: 175px;
     }
-    #email, #iconemail {
+    #email, 
+    #iconemail {
       margin-left: 185px;
     }
-    #iconshare, #share {
+    #iconshare, 
+    #share {
       margin-left: 168px;
     }
-    #iconsign, #sign {
+    #iconsign, 
+    #sign {
       margin-left: 163px;
     }
 }
@@ -337,7 +357,8 @@ hr {
   #btnCta {
     display: none;
   }
-  #navBrand, .navbar-brand {
+  #navBrand, 
+  .navbar-brand {
     margin-left: 0px;
   }
   .navbar-nav {
